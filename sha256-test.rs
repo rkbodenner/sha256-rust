@@ -1,3 +1,5 @@
+use sha256::SHA2;
+
 mod sha256;
 
 #[test]
