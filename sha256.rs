@@ -2,7 +2,7 @@ pub struct SHA256 {
   digest: ~str
 }
 
-trait SHA2 {
+pub trait SHA2 {
   // Block length of the digest in bytes
   pub fn block_length(self) -> uint;
   // Length of the hash value of the digest in bytes
